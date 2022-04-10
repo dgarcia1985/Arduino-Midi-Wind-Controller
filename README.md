@@ -11,4 +11,8 @@ Las características del instrumento son las siguientes:
 * 1 sensor de presión GY-68 BMP180.   
 * 1 Joystick de un mando viejo de GameCube para controlar la rueda de Pitch/Modulación.
 * 1 potenciómetro lineal del gatillo de un mando de GameCube para controlar el ataque mordiendo la boquilla.
-* 8 botones que permiten cambiar configuraciones del dispositivo y calibrarlo.
+* 8 botones que permiten cambiar configuraciones del dispositivo y calibrarlo.   
+* 
+Abajo podemos ver el esquema de conexiones del dispositivo:
+
+![esquema](https://user-images.githubusercontent.com/103361813/162631641-c1413340-165d-418e-a282-0f6627521640.svg)
