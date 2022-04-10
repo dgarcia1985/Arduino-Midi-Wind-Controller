@@ -1,5 +1,5 @@
 # Arduino Midi Wind Controller 
-<a href="Readme.en.md">English</a>   
+<a href="README.en.md">English</a>   
 This is the code and Assets for a cheap DIY Midi Wind Controller.  
 My goal was to make a cheap controller with better dynamics than a midi keyboard to play trumpets, sax, etc ...  
 It's built with 3D printed parts, spare parts from broken videogame controllers and sensors. 
