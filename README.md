@@ -22,7 +22,8 @@ Para realizar pruebas hasta reprogramar la placa de Arduino como dispositivo MID
 Las piezas 3D están modeladas con <a href="https://www.freecadweb.org/">FreeCAD</a>   
 Muchas de las piezas utilizadas son demasiado grandes para mi impresora 3D, por lo que algunas piezas han sido impresas partidas en dos para luego unirlas, algunas piezas van atornilladas pero otras han sido unidas utilizando un soldador para fundir el plástico.   
 He impreso las piezas en PETG, pero casi todas las piezas deberían poder hacerse en cualquier plástico. La lengüeta que transmite la fuerza de mordida debería estar impresa en un plástico bastante resistente (ABS o PETG).   
-Los planos de las piezas los puedes consultar aquí.
+
+Los planos de las piezas los puedes consultar <a href="#">aquí</a>.
 
 La lista completa de componentes es la siguiente:
 
