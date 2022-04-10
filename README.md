@@ -1,14 +1,14 @@
-# Arduino Midi Wind Controller 
+# Controlador de viento Midi   
 <a href="README.en.md">English</a>   
-This is the code and Assets for a cheap DIY Midi Wind Controller.  
-My goal was to make a cheap controller with better dynamics than a midi keyboard to play trumpets, sax, etc ...  
-It's built with 3D printed parts, spare parts from broken videogame controllers and sensors. 
 
-It uses and Arduino Uno and have the following functionalities.  
+Aquí está el código y los recursos para construir un controlador de viento Midi basado en Arduino.   
+Mi objetivo era construir un controlador barato con una dinámica mejor que un teclado para tocar trompetas, saxofones, flautas y otros instrumentos de viento.   
+He montado el prototipo con piezas impresas en 3D (Los archivos están Disponibles en la carpeta Parts), piezas desmontadas de mandos de videojuegos rotos, cables de distintos dispositivos USB estropeados, sensores y botones.
 
-* 12 buttons to select which notes are playing.  
-* 1 pressure sensor to detect blowing.
-* 1 Joystick used as pitch / modulation wheel.
-* 1 linear pot to control attack with bite pressure.
-* 8 buttons for configuration / calibration of the device.
+Las características del instrumento son las siguientes:
 
+* 12 botones para seleccionar que nota se va a tocar, pueden accionarse de forma simultánea.  
+* 1 sensor de presión GY-68 BMP180.   
+* 1 Joystick de un mando viejo de GameCube para controlar la rueda de Pitch/Modulación.
+* 1 potenciómetro lineal del gatillo de un mando de GameCube para controlar el ataque mordiendo la boquilla.
+* 8 botones que permiten cambiar configuraciones del dispositivo y calibrarlo.
