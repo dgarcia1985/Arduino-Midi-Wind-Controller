@@ -17,9 +17,9 @@ Abajo podemos ver el esquema de conexiones del dispositivo:
 
 ![esquema](https://user-images.githubusercontent.com/103361813/162631641-c1413340-165d-418e-a282-0f6627521640.svg)  
 
-Para poder utilizarlo como un dispositivo MIDI USB normal es necesario reprogramar el firmware de Arduino con <a href="https://github.com/ddiakopoulos/hiduino">Hiduino</a> o similar.   
-Para realizar pruebas hasta reprogramar la placa de Arduino como dispositivo MIDI he utilizado <a href="https://projectgus.github.io/hairless-midiserial/">Hairless Midi</a>, ten en cuenta que la tasa de Baudios del dispositivo MIDI es distinta si lo utilizamos eon esta aplicación. Se detallará en las instrucciones.   
-Las piezas 3D están modeladas con <a href="https://www.freecadweb.org/">FreeCAD</a>   
+Para poder utilizarlo como un dispositivo MIDI USB normal es necesario reprogramar el firmware de Arduino con <a target="_blank" href="https://github.com/ddiakopoulos/hiduino">Hiduino</a> o similar.   
+Para realizar pruebas hasta reprogramar la placa de Arduino como dispositivo MIDI he utilizado <a target="_blank" href="https://projectgus.github.io/hairless-midiserial/">Hairless Midi</a>, ten en cuenta que la tasa de Baudios del dispositivo MIDI es distinta si lo utilizamos eon esta aplicación. Se detallará en las instrucciones.   
+Las piezas 3D están modeladas con <a target="_blank" href="https://www.freecadweb.org/">FreeCAD</a>   
 Muchas de las piezas utilizadas son demasiado grandes para mi impresora 3D, por lo que algunas piezas han sido impresas partidas en dos para luego unirlas, algunas piezas van atornilladas pero otras han sido unidas utilizando un soldador para fundir el plástico.   
 He impreso las piezas en PETG, pero casi todas las piezas deberían poder hacerse en cualquier plástico. La lengüeta que transmite la fuerza de mordida debería estar impresa en un plástico bastante resistente (ABS o PETG).   
 
