@@ -15,7 +15,7 @@ Las características del instrumento son las siguientes:
 
 Abajo podemos ver el esquema de conexiones del dispositivo:
 
-![esquema](I	mg/esquema.svg)  
+![esquema](Img/esquema.svg)  
 
 Para poder utilizarlo como un dispositivo MIDI USB normal es necesario reprogramar el firmware de Arduino con <a target="_blank" href="https://github.com/ddiakopoulos/hiduino">Hiduino</a> o similar.   
 Para realizar pruebas hasta reprogramar la placa de Arduino como dispositivo MIDI he utilizado <a target="_blank" href="https://projectgus.github.io/hairless-midiserial/">Hairless Midi</a>, ten en cuenta que la tasa de Baudios del dispositivo MIDI es distinta si lo utilizamos con esta aplicación. Se detallará en las instrucciones.   
