@@ -18,7 +18,7 @@ Abajo podemos ver el esquema de conexiones del dispositivo:
 ![esquema](I	mg/esquema.svg)  
 
 Para poder utilizarlo como un dispositivo MIDI USB normal es necesario reprogramar el firmware de Arduino con <a target="_blank" href="https://github.com/ddiakopoulos/hiduino">Hiduino</a> o similar.   
-Para realizar pruebas hasta reprogramar la placa de Arduino como dispositivo MIDI he utilizado <a target="_blank" href="https://projectgus.github.io/hairless-midiserial/">Hairless Midi</a>, ten en cuenta que la tasa de Baudios del dispositivo MIDI es distinta si lo utilizamos con esta aplicación. Se detallará en las instrucciones.   
+Para realizar pruebas hasta reprogramar la placa de Arduino como dispositivo MIDI he utilizado <a target="_blank" href="https://projectgus.github.io/hairless-midiserial/">Hairless Midi</a>, ten en cuenta que la tasa de Baudios del dispositivo MIDI es distinta si lo utilizamos con esta aplicación. Se detallará en las instrucciones de montaje.   
 Las piezas 3D están modeladas con <a target="_blank" href="https://www.freecadweb.org/">FreeCAD</a>   
 Muchas de las piezas utilizadas son demasiado grandes para mi impresora 3D, por lo que algunas piezas han sido impresas partidas en dos para luego unirlas, algunas piezas van atornilladas pero otras han sido unidas utilizando un soldador para fundir el plástico.   
 He impreso las piezas en PETG, pero casi todas las piezas deberían poder hacerse en cualquier plástico. La lengüeta que transmite la fuerza de mordida debería estar impresa en un plástico bastante resistente (ABS o PETG).   
@@ -37,4 +37,4 @@ La lista completa de componentes es la siguiente:
 * 4 resistencias de 1k, 2 de 2k, 2 de 5.1k y 2 de 10k. Los valores en realidad pueden ser distintos. <a href="Doc/Resistencias.md">Aquí se detalla que hacen</a>.   
 * 1 sensor GY-68 BMP180.
 * Conectores JST para organizar los cables de manera más sencilla.
-* Piezas impresas en 3D, los modelos los puedes bajar aquí en formatos FCSTD y STL.
+* Las Piezas impresas en 3D de arriba.
