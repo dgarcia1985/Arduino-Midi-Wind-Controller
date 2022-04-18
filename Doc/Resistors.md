@@ -1,36 +1,37 @@
-# Uso de resistencias en paralelo para leer varios pulsadores en una entrada analógica.
+# Using resistors in parallel for reading multiple switchs in a single analog input  
+
 <a href="Resistencias.md">Español</a>
 
 ##Translation pending  
 
-El controlador de viento ocupa todas las entradas digitales de la placa con botones para seleccionar que nota va a sonar.
+All wind controller digital inputs are occupied with switches for note selection.
 
-Necesitaba añadir más botones para poder realizar distintas tareas (cambiar de octavas, transponer notas, alternar distintas configuraciones, etc ...)
+I needed more buttons to do other tasks such as changing octaves, transposing notes, or modifying device configuration.
 
-Para ello conecto la entrada analógica a utilizar con la toma de 5V de la placa con una resistencia.
+
+I connect the analog input with a resistor to the 5V power pin and four parallel resistors with switches connected to ground.
 
 ![Resistor wiring scheme](../Img/resistencias.svg)
 
-De esta forma leeremos un valor de 1023 en la entrada cuando ningún botón esté pulsado y el valor descenderá a medida que pulsemos botones ya que la circulación de la corriente se repartirá de forma inversamente proporcional a la resistencia de cada ramal del circuito.
+This way we will read a value of 1023 in the input when none of the switches is connected, this value will be lowered by each switch is activated. The electric current will be distributed inversely proportional to the resistor value associated with each switch. 
 
-Para calcular los valores, necesitamos saber que relación hay entre la resistencia que atraviesa cada uno de los interruptores y la resistencia total del circuito.
-
+To calculate the analog value we need to now the ratio between the resistance of the resistor without switch and the total resistance of the circuit. We can calculate total resistance with the next formula.
 ![Total resistance formula](../Img/formula-resistencias.svg)  
-Siendo S valores binarios que serán 0 cuando el interruptor este desconectado (por lo que la resistencia asociada no se tendrá en cuenta) y 1 cuando se presione.
+Being S binary values that will be 0 when the switch is off and 1 when it's on.
 
-Una vez hemos calculado la resistencia total podemos calcular el coeficiente de corriente que pasa por la Resistencia 5 dividiendo la resistencia total entre el valor de la resistencia 5. Para saber el valor teórico que devolverá la lectura analógica en Arduino multiplicamos el coeficiente por 1023 (valor máximo de una entrada analógica de 10 bits).
+Once we have the total resistance we can calculate the ratio of current passing through R<sub>5</sub>. To know the theoretical value that we will be reading in the Arduino's analog input we must multiply this ratio by 1023(Máximum value of a 10 bits analog input).
 
-Por lo tanto podríamos calcular el valor teórico de entrada en Arduino con la siguiente fórmula.
+This formula let us calculate this value.
 
 ![Analog input value formula](../Img/formula-resistencias2.svg)
 
-Si utilizas los mismos valores de resistencias que yo tendrías la siguiente fórmula.
+If you use the same resistors than i did you get this formula.
 ![Analog input value formula 2](../Img/formula-resistencias3.svg)
 
-A partir de esta fórmula podemos calcular los valores que leeremos en función de que interruptores estén pulsados. Ninguna combinación de resistencias de mayor valor dará una lectura analógica menor que pulsar el interruptor con una resistencia de mayor valor. Esto nos permite en el código detectar primero si el botón S1 está pulsado e ir filtrando cada uno de los casos posibles de menor a mayor resistencia.
+With this we can calculate the analog read of any buttons configuration. There's no combination of higher value resistors that could output a lower value than pressing a switch attached to a lower value resistor. This allows us to detect that S<sub>1</sub> is pressed when the analog read is lower than 512 (theoretically).
 
-Además debemos tener en cuenta que las resistencias tienen unas tolerancias que harán variar el valor real que leamos en el Arduino.
+As any resistor have a tolerance value, i have increased the theoretical values in the code.   
 
-Con las resistencias que he utilizado me ha bastado con aumentar en el código entre dos y cuatro unidades los valores teóricos obtenidos.
+With the resistors i have used between 2 and 4 units of tolerance is enough. 
 
 
