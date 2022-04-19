@@ -1,6 +1,8 @@
 # Controlador de viento Midi   
 <a href="README.en.md">English</a>   
 
+<a href="https://www.youtube.com/watch?v=sx2wOH4ftkw">Vídeo de demostración</a>   
+
 Aquí está el <a href="Code/midiWindController.ino">código</a> y los recursos para construir un controlador de viento Midi basado en Arduino.   
 Mi objetivo era construir un controlador barato con una dinámica mejor que un teclado para tocar trompetas, saxofones, flautas y otros instrumentos de viento.   
 He montado el prototipo con piezas impresas en 3D (Los archivos están Disponibles en la carpeta Parts), piezas desmontadas de mandos de videojuegos rotos, cables de distintos dispositivos USB estropeados, sensores y botones.
