@@ -315,7 +315,7 @@ else
   prevPitch=pitch;
     if ((b24==0 && rueda==0) || (rueda==1 && (b23==1 || b24==1)))
     {
-   MIDI.sendPitchBend(int(pitch),1);
+   MIDI.sendPitchBend(int(pitch),canal);
     }
     if ((rueda==0 && (b24==1 || b23==1)) || (b23==0 && rueda==1) )
     {
