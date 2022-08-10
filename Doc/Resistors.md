@@ -2,7 +2,6 @@
 
 <a href="Resistencias.md">Español</a>
 
-##Translation pending  
 
 All wind controller digital inputs are occupied with switches for note selection.
 
