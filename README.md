@@ -36,7 +36,7 @@ La lista completa de componentes es la siguiente:
 * 1 Joystick (Sólo utilizaremos un eje así que puede valer cualquier potenciómetro rotatorio con un sistema de retorno a la posición central).   
 * 1 potenciómetro deslizante (Utilice el de el gatillo de un mando de GameCube, pero se estropeó y lo cambié por uno A20K que es lo que encontré que me entrará en la pieza que ya tenía diseñada) que recibirá la fuerza de la mordida.
 * 1 Muelle para crear el efecto de autoretorno en el potenciómetro deslizante (También utilice uno de un mando de GameCube roto).
-* 4 resistencias de 1k, 2 de 2k, 2 de 5.1k y 2 de 10k. Los valores en realidad pueden ser distintos. <a href="Doc/Resistencias.md">Aquí se detalla que hacen</a>.   
+* 4 resistencias de 1k, 2 de 2k, 2 de 5.1k y 2 de 10k. Los valores en realidad pueden ser distintos. En la wiki con las instrucciones de montaje hay más información sobre lo que hacen.   
 * 1 sensor GY-68 BMP180.
 * Conectores JST para organizar los cables de manera más sencilla.
 * Las Piezas impresas en 3D de arriba.

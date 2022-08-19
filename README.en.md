@@ -40,7 +40,7 @@ The complete part list is:
 * 1 Joystick (We will only be using one axis so you can use any rotatory potentiometer with a self returning mechanism).
 * 1 slider pot (I use the one from a broken GameCube pad trigger, but then it broke and i have to replace it with a A20K pot with a similar size).   
 * 1 spring for making the slider pot self-returning.
-* 4 1k resistors, 2 of 2k, 2 of 5.1k y 2 of 10k. You can use other values. <a href="Doc/Resistors.md">Here you got a description of their function</a>.   
+* 4 1k resistors, 2 of 2k, 2 of 5.1k y 2 of 10k. In the Wiki you can find more info.   
 * 1 GY-68 BMP180 sensor.
 * JST conectors to organize wires.
 * 3D printed parts from above.
